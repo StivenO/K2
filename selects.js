@@ -811,32 +811,14 @@ $('#A-B').show();
   $('#pist24').hide();
   $('#pist25').hide();
 } else if(valor === "0") {
-  $('#pist1').show();
-  $('#pist2').show();
-  $('#pist3').show();
-  $('#pist4').show();
-  $('#pist5').show();
-  $('#pist6').show();
-  $('#pist7').show();
-  $('#pist8').show();
-  $('#pist9').show();
-  $('#pist10').show();
-  $('#pist11').show();
-  $('#pist12').show();
-  $('#pist13').show();
-  $('#pist14').show();
-  $('#pist15').show();
-  $('#pist16').show();
-  $('#pist17').show();
-  $('#pist18').show();
-  $('#pist19').show();
-  $('#pist19').show();
-  $('#pist20').show();
-  $('#pist21').show();
-  $('#pist22').show();
-  $('#pist23').show();
-  $('#pist24').show();
-  $('#pist25').show();
-  $('#pist26').show();
+  if ($('#checkbox-Avanzados').is(':checked')) {
+    $('.Avanzados').show();
+  }if ($('#checkbox-Novatos').is(':checked')) {
+    $('.Novatos').show();
+  }if ($('#checkbox-Expertos').is(':checked')) {
+    $('.Expertos').show();
+  }if ($('#checkbox-Intermedios').is(':checked')) {
+    $('.Intermedios').show();
+  }
 }
 });
