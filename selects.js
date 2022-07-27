@@ -1,3 +1,4 @@
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
 $('select').on('change', function() {
 var valor=(this.value);
 if(valor==="nada"){
