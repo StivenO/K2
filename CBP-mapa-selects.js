@@ -934,6 +934,12 @@ $('#A-B').show();
   $('#pist24').hide();
   $('#pist25').hide();
 } else if(valor === "0") {
+  if ($('#nombretramo').hide()) {
+    $('#info').hide();
+  }else{
+    $('#nombrepist').hide();
+    $('#km').hide();
+  }
   if ($('#checkbox-Avanzados').is(':checked')) {
     $('.Avanzados').show();
   }if ($('#checkbox-Novatos').is(':checked')) {
